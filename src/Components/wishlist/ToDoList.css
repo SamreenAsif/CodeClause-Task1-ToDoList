@@ -1,0 +1,110 @@
+button {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.list-box {
+  background: #c361ff;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1% 1% 3% 1%;
+  box-sizing: border-box;
+}
+
+.list-box h2 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  letter-spacing: 2px ;
+  margin: 0;
+}
+
+.list-box .head {
+  /* border: 2px solid; */
+  display: flex;
+  gap: 1.5%;
+  flex-wrap: wrap;
+  padding: 2% 2%;
+  padding-right: 0%;
+  padding-left: 2.5%;
+  padding-top: 5%;
+}
+
+.head #itemName {
+  width: 63.5%;
+  height: 3.5em;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-left: 1.5%;
+  font-size: 15px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.head #addBtn {
+  width: 12%;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(125, 5, 173);
+  /* Set the background color to white with 50% transparency */
+  color: white;
+  font-size: 18px;
+  height: 3.5rem;
+}
+
+.head #priority {
+  /* border: 1px solid red; */
+  /* appearance: none;
+  -webkit-appearance: none; */
+  width: 12%;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  background-color: rgb(125, 5, 173);
+  /* Set the background color to white with 50% transparency */
+  color: white;
+  text-align: center;
+  padding-left: 2%;
+  font-size: 18px;
+  height: 3.5rem;
+}
+
+select#priority option {
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  padding-left: 1%;
+  /* border: 2px solid black; */
+}
+
+#sortBtn {
+  height: 4rem;
+  background-color: rgb(125, 5, 173);
+
+  width: 6%;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  height: 3.5rem;
+  align-items: center;
+}
+
+#sortImage {
+  height: 2.5rem;
+  filter: invert(1);
+  width: 104%;
+  opacity: 0.9;
+
+}
